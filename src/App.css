@@ -3,13 +3,13 @@
   padding: 0px;
 }
 .body{
-  background-color: #E94B3CFF;
+  background-color: cornflowerblue;
   height: 100%;
 }
 .name{
   /* border-radius: 100px; */
-  border-color: rgb(247, 196, 130);
-  background-color: rgb(247, 196, 130);
+  border-color: cyan;
+  background-color: cyan;
 }
 .title{
   font-size: 50px;
@@ -17,7 +17,7 @@
   margin-top: 0px;
   margin-left: 50px;
   height: 70px;
-  color: rgb(202, 40, 40);
+  color: black;
 }
 .queblock{
   width: 600px;
@@ -25,9 +25,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #101820FF;
+  background-color: gray;
   border-radius: 30px;
-  height: 580px;
+  height: 590px;
   margin-top: 9px;
 }
 .statment{
@@ -39,22 +39,24 @@
 .opbtn{
   width: 280px;
   padding: 6px;
-  background-color: #F2AA4CFF;
-  color: white;
+  background-color: lightgrey;
+  color: black;
   border-radius: 50px;
-  border-color: #F2AA4CFF;
+  border-color: lightgray;
 }
 .opbtn:hover{
   cursor: pointer;
   background-color: rgb(202, 40, 40);
   border-color: rgb(202, 40, 40) ;
+  color: white;
 }
 .next{
   /* border: 1px solid white; */
   margin-top: 0px;
+  /* border: 2px solid yellow; */
 }
 .next button{
-  margin-left: 360px;
+  margin-left: 320px;
   margin-top: 0px;
   color: white;
   background-color: rgb(57, 175, 221);
@@ -67,4 +69,34 @@
   cursor: pointer;
   background-color:rgb(21, 89, 116) ;
   border-color: rgb(21, 89, 116);
+
+}
+.hr{
+  width: 290px;
+  /* margin: 0px 3px; */
+  /* padding: 0px 2px; */
+  /* margin-left: 50px; */
+}
+@media (max-width:500px){
+  .title{
+    font-size: 45px;
+    margin-top:0px;
+  }
+.queblock{
+  margin-left: 35px;
+  width: 300px;
+}
+.statment{
+  /* margin-top: 0px; */
+  font-size: 15px;
+  margin-left: 110px;
+  /* border: 1px solid green; */
+}
+.opbtn{
+ width: 180px; 
+ margin-top: 5px;
+}
+.hr{
+  width: 200px;
+}
 }
