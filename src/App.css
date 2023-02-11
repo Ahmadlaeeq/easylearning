@@ -79,17 +79,17 @@
 }
 @media (max-width:500px){
   .title{
-    font-size: 45px;
+    font-size: 35px;
     margin-top:0px;
   }
 .queblock{
   margin-left: 35px;
-  width: 300px;
+  width: 320px;
 }
 .statment{
   /* margin-top: 0px; */
   font-size: 15px;
-  margin-left: 110px;
+  margin-left: 150px;
   /* border: 1px solid green; */
 }
 .opbtn{
