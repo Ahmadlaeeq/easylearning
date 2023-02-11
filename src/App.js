@@ -29,7 +29,6 @@ function App() {
 )
 })
 }
-<div className='next'><button>Next</button></div>
 </div>
 }
         </ol>
